@@ -7,6 +7,10 @@
     --trenary:#898989;
     --light:#F2F2F2;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
 *{
     margin: 0;
     padding: 0;
@@ -25,4 +29,16 @@ header{
 header nav .left a{
     color: var(--pure);
     text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
 }
