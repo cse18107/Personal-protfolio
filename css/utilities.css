@@ -26,3 +26,19 @@
     color: var(--primary);
     background-color:rgba(255, 255, 255, 0) ;
 }
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    color:var(--dark) ;
+    border-color: transparent;
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
